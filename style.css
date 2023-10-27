@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --main-color:#ff702a;
+    --text-color:#fff;
+    --bg-color:#1e1c2a;
+    --big-font:5rem;
+    --h2-font:2.25rem;
+    --p-font:0.9rem;
+}
+*::selection{
+    background: var(--main-color);
+    color: #fff;
+}
+body,html{
+    color: var(--text-color);
+    background-color:#1e1c2a  ;
+}
+
+.topbar{
+   background-color:#1e1c2a ;
+}
+.nav-link{
+    color: var(--text-color);
+}
+.jumbotron h1{
+    font-size: var(--big-font);
+    color: var(--main-color);
+}
+.jumbotron h2{
+    font-size: var(--h2-font);
+    color: var(--text-color);
+    margin: 1rem 0 2rem;
+}
+.home{
+    background-color:#1e1c2a;
+   
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 0.5rem;
+    text-decoration: none;
+ }
+.btn:hover{
+    transform: scale(1.2) translate(10px);
+    transition: .4s;
+}
+.about{
+    background-color: #1e1c2a;
+    height: auto;
+    
+}
+.jumbotron span{
+color: var(--main-color);
+}
+.jumbotron p{
+color: var(--text-color);
+}
+.Menu{
+    background-color: #1e1c2a;
+    height: auto;
+}
+.text span{
+color: var(--main-color);
+}
+.text h2{
+    color: var(--text-color);
+}
+.Chicken-Burger{
+    position: relative;
+    top: 30px;
+    left: 120px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.Chicken-Fry-Pack{
+    position: relative;
+    top: 30px;
+    left: 120px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.Special-Burger{
+    position: relative;
+    top: 30px;
+    left: 120px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.Special-Burger h2{
+    font-size: 1.3rem;
+    color:var(--bg-color);
+}
+.Special-Burger h3{
+    color:var(--main-color);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 4px 0 10px;
+}
+.Chicken-Fry-Pack h2{
+    font-size: 1.3rem;
+    color:var(--bg-color);
+}
+.Chicken-Fry-Pack h3{
+    color:var(--main-color);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 4px 0 10px;
+}
+.Chicken-Burger h2{
+    font-size: 1.3rem;
+    color:var(--bg-color);
+}
+.Chicken-Burger h3{
+    color:var(--main-color);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 4px 0 10px;
+} 
+.row .bx{
+    background-color: var(--main-color);
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    padding: 7px 10px ;
+    border-radius: 0 0 0 0.9rem;
+}
+.Service{
+    background-color: #1e1c2a;
+    height: 80vh;
+    
+}
+.Service .text{
+    position: relative;
+    top:100px
+}
+.Order{
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+.Shipped{
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+.Delivered{
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+.Service h3{
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+.Service P{
+    color: var(--text-color);
+    font-size: 1rem;
+}
+.cta{
+    height:60vh;
+    background-color: #1e1c2a;
+}
+.cta .container{
+    background-color: aliceblue;
+    height: 50vh;
+    border-radius: 10px;
+}
+.letter{
+    position: relative;
+    top: 50px;
+    left: 340px;
+}
+footer{
+    height: 15vh;
+    background-color: #1e1c2a;
+}
+.Contact h3{
+    color: var(--text-color);
+    font-size: 30px;
+}
+.Social{
+    
+    width: 40%;
+    position: relative;
+    left: 380px;
+}
+.Social a{
+    vertical-align: middle;
+    font-size: 30px;
+    color: var(--main-color);
+    margin-right: 25px;
+    margin-left: 5px;
+    transition: all .50s ease;
+}
+.Social a:hover{
+    color: var(--main-color);
+    transform: translateY(-3px);
+}
+
+@media  (min-width:320px) and (max-width:1024px) {
+    .navbar{
+        color: white;
+    }
+    main{
+        background-color: #1e1c2a;
+       
+    }
+    footer{
+        background-color: #1e1c2a;
+        
+    }
+    header{
+        background-color: #1e1c2a;
+        
+    }
+    .container{
+        background-color:#1e1c2a;
+    }
+    .home-image{
+        position: relative;
+        left: 30px;
+        top: -10px;
+    }
+    .about_image{
+        position: relative;
+        left: 30px;
+        top: 30px;
+    }
+    .jumbotron {
+        position: relative;
+        top: 20px;
+    }
+
+    .Chicken-Burger{
+        position: relative;
+        top: 30px;
+        left: 0px;
+       
+    }
+    .Chicken-Fry-Pack{
+        position: relative;
+        top: 30px;
+        left: 0px;
+       
+    }
+    .Special-Burger{
+        position: relative;
+        top: 30px;
+        left: 0px;
+        
+    }
+    .Service{
+        background-color:#1e1c2a;
+        height: 120vh;
+       
+    }
+    .Order{
+        position: relative;
+        top: 100px;
+        left: 10px;
+    }
+    .Shipped{
+        
+        position: relative;
+        top: 100px;
+        left: 10px;
+    }
+    .Delivered{
+       
+        position: relative;
+        top: 100px;
+        left: 10px;
+    }
+    .letter{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .cta{
+        position: relative;
+        top: 250px;
+    }
+    
+    .cta .container{
+        background-color: aliceblue;
+        height: 50vh;
+        width: 80%;
+        border-radius: 10px;
+    }
+    footer{
+        
+        position: relative;
+        top: 200px;
+    }
+    .Contact h3{
+        font-size: 25px;
+    }
+    .Social{
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+    
+}
